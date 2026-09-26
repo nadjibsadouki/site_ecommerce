@@ -1,0 +1,158 @@
+##FRONT-END:
+LES PAGES HTML :  
+#auth      :    (terminé) Yani
+#formulaire:    (terminé) Yani
+#Profile   :    (terminé) Yani
+
+#panier    :    (terminé) nadjib
+#admin     :    (terminé) nadjib
+
+#index     :    (terminé) Salim
+#produit   :    (terminé) Salim
+
+#profile (terminé)
+    -> améliorer l'apercus de la photo de profile (terminé)
+    -> ajouter l'entet du site (SANS LA BARRE DES TACHES, SANS LA BARE DE RECHERCHE)
+        uniquement le logo du site pour retour en arriére. (terminé)
+
+#index (terminé)
+    ->ajouter le menue "sidebar menu", a l'interieur on trouve le : 
+        panier, connexion, produit avec leurs logos qui enménent vers 
+        leurs page respectives. (termine)
+        ajouter les livres disponible dans le dossier image. (terminé)
+    ->ajouter les page dynamique qui s'ouvrent en cliquent sur le livre on trouvera
+        le prix, les détails, le boutton ajouter au panier, et une crois pour sortire (termine)
+
+#produit (terminé)
+    ->enlever le logo de "mon compte sur la droite, il sert a rien. (terminé)
+    ->améliorer le style de "catégorie" pour avoire un méilleur rendue.  (termine)
+    ->faire la catégorie intéligente pour la recherche de livre (JS).
+    ->ajouter les livres diponible dans le dossier "image" ainsi que de nouveaux. (terminé)
+
+#admin  (terminé)
+    ->enlever la barre de recherche et le logo authentification elle sert a rien(terminé)
+    ->ajouter juste le boutton déconnexion pour deconnecté (terminé)
+    ->enlever les bouttons panier acceuil, menue, panier ils servent a rein.(terminé)
+    ->le rendre intéractif avec le JS.(terminé)
+
+#panier (terminé)
+    ->enlever la barre de recherche elle sert a rien.(terminé)
+    ->enlever le menue, panier, produit ils servent a rien.(terminé)
+    ->laisser juste le logo de photo de profile pour montrer la connexion.(terminé)
+    ->rendre la page intéractif (JS).(terminé)
+
+
+LA PAGE CSS : 
+    auth.html       (fait)
+    profile.html    (fait)
+    formulaire.html (fait)
+    index.html      (fait)
+    panier.html     (fait)
+    produit.html    (fait)
+    admin.html      (fait)
+
+
+LES LIENS ENTRES PAGES : 
+    index  ->profile    (oui)
+    index  ->panier     (oui)
+    index  ->produit    (oui)
+    panier ->formulaire (oui)
+
+
+TASKS: 
+- ajouter une vidéo de bienvenue dans l'index
+
+FINISHED TASKS: 
+- faire le logo du site 
+- ajouter le logo du site dans tout les anglets des pages.
+- faire les liens entre pages.
+- rendre les chemain relatifs.
+- changer la police.
+- idnetifier l'identité visuel (a ne pas ignorer).
+- ajouter le README. 
+
+
+IDENTITÉ VISUEL: 
+identité globale : violet / bleu / blanc
+police unique : DMSerifDisplay
+fallback : sans-serif, Raleway
+accents : #5c6bc0, #3f1d8c, #667eea, #764ba2
+neutres : #fff, #eee, #f9f9f9, #fafafa, #333
+
+
+
+##BACK-END:
+    " 3 choses fondamentale a faire: la dinamicité,
+        les intérogations DB, les controles"
+
+DINAMICITÉ DU SITE: 
+-liens conditionnel (terminé) 
+ -possibilité de deconnexion (terminé)
+ -ajout du livre a travers la page admin, et la la db. (sans la db pour l'instant)
+ -ajouter le livre au panier en cas de commande (termine)
+ -filtrer les livre selon la catégorie (termine)
+ -ajouter le livre au panier en cas de commande (termine)
+ -filtrer les livre selon la catégorie (termine)
+ -liens conditionnel (terminé)
+ -afficher la photo de l'utilisateur en cas de connexion.(terminé)
+ -ajouter une quantité de commande.(terminé)
+ -afficher les information sur le profile (terminé)
+ -calculer l'age de la personne (terminé)
+ -en cas d'achat, ajouter le livre dans l'historique d'achat avec le controle
+        suivant : en cours par defaut, et livré deux jours plus tard.( terminé)
+ -afficher l'avatard de l'utilisateur(terminé)
+ -ajouter l'enmplacement du livre dans acceuil (ajouter recement par défaut)(terminé)
+ -ajouter long dans la page admin pour chaque livre.(terminé)
+ -ajouter les commande dans la page admin. (terminé)
+ -ajouter le choix d'avatar dans le profile(une fois ajouter il ce deplace en bd) (terminé)
+ -afficher le prix total dans panier.(terminée)
+ -afficher aussi le prix total dans admin.(terminé)
+ -colorier la catégorie choisi.(terminé)
+ -ajouter des disigne de confirmation(ajouter au panier, commander) (terminé)
+ -suprimer l'anciens livre ajouter si il n'ya plus de place (terminé)
+
+ DB: 
+ -iscription/connexion (terminé)
+ -jouter la table panier. (terminé)
+ -ajouter la possibilité de connexion et déconnexion du site (terminé)
+ -connexion vers la page admin (terminé)
+ -sauvgarder les livres ajouter dans la DB (terminé)
+ -sauvgarder la commande de livre dans la DB (terminé)
+ -sauvgarder l'avatar dans la BD (termine)
+ -charger les informations profile pour chaque connexion (Terminé)
+ -suppression du livre a partir de admin et la BD (terminé) 
+ -ajouter les livres depuis admin vers acceuil (terminé)
+ -ajouter aux panier et la BD (terminé)
+ -supprimer un livre de panier et la BD (terminé)
+ -charger le panier pour chaque connexion (terminé)
+ -la possibilité de modifier les information de la personne sur profile
+ -changer les attributs entre nom et prenom  
+ -passer la commande, sauvgarder la commande dans la BD, 
+        et l'afficher dans admin, et l'afficher dans l'historique de l'utilisateurs. (terminé) 
+ -charger l'historique (commande) pour chaque connexion. (terminé)
+
+
+
+ LES CONTROLES: 
+ -controles de connexion : compte existant, mdp ou email inccorrect (terminé)
+ -aficher automatiquement les donnée de l'utilisateurs l'ors de l'achat.
+ -en cours et livré 
+
+
+ RETOUCHE: 
+ -police
+ -ajouter un footer (terminé)
+ -ajouter les liens avec flask (terminé)
+ -pdf de conception. (terminé)
+ -ajouter des citations.
+ -ajouter les chemains vers les resaux dans auth (terminé)
+ -netoyer le message d'authentification (terminé)
+ -amener admin vers admin (terminé)
+ -rendre la quantité livre dans panier fixe (terminé)
+ -enlever le non rensegner des commandes admin
+ -corrigé l'attribut nom et prenom
+
+
+
+
+ 
